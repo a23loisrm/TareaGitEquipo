@@ -29,3 +29,4 @@ if (isNaN(edad)) {
     if (categoria) {
         alert("Eres un " + categoria + ".");
     }
+}
