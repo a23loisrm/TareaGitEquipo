@@ -6,27 +6,26 @@ if (isNaN(edad)) {
     let categoria;
     switch (true) {
         case edad >= 0 && edad <= 12:
-            categoria = "neno";
+            categoria = "Neno";
             break;
         case edad >= 13 && edad <= 14:
-            categoria = "preadolescente";
+            categoria = "Preadolescente";
             break;
         case edad >= 15 && edad <= 18:
-            categoria = "adolescente";
+            categoria = "Adolescente";
             break;
         case edad >= 19 && edad <= 30:
-            categoria = "xoven";
+            categoria = "Xoven";
             break;
         case edad >= 31 && edad <= 64:
-            categoria = "adulto";
+            categoria = "Adulto";
             break;
         case edad >= 65 && edad <= 100:
-            categoria = "xubilado";
+            categoria = "Xubilado";
             break;
         default:
-            alert("Idade fora do rango permitido.");
+            alert("You Died");
     }
     if (categoria) {
         alert("Eres un " + categoria + ".");
     }
-}
