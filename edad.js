@@ -6,22 +6,22 @@ alert("Por favor, introduce un número válido para a idade. Modificación funci
 let categoria;
 switch (true) {
 case edad >= 0 && edad <= 12:
-categoria = "neno";
+categoria = "Chaval";
 break;
 case edad >= 13 && edad <= 18:
-categoria = "adolescente";
+categoria = "Adolescente";
 break;
 case edad >= 19 && edad <= 30:
-categoria = "xoven";
+categoria = "Xoven";
 break;
-case edad >= 31 && edad <= 64:
-categoria = "adulto";
+case edad >= 31 && edad <= 6
+categoria = "Adulto";
 break;
 case edad >= 65 && edad <= 100:
-categoria = "xubilado";
+categoria = "Xubilado";
 break;
 default:
-alert("Idade fora do rango permitido.");
+alert("You Died");
 }
 if (categoria) {
 alert("Eres un " + categoria + ".");
